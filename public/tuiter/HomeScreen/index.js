@@ -1,6 +1,6 @@
-import NavigationSidebar from "../explore/NavigationSidebar";
-import PostSummaryList from "../explore/PostSummaryList";
-import PostList from "../explore/PostList";
+import NavigationSidebar from "../explore/NavigationSidebar/index.js";
+import PostSummaryList from "../explore/PostSummaryList/index.js";
+import PostList from "../explore/PostList/index.js";
 
 function homeScreen(){
     // eslint-disable-next-line no-undef
