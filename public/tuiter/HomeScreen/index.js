@@ -3,6 +3,7 @@ import PostSummaryList from "../explore/PostSummaryList";
 import PostList from "../explore/PostList";
 
 function homeScreen(){
+    // eslint-disable-next-line no-undef
     $('#wd-home').append(`
 <!--              <h2>Explore</h2>-->
   <div class="row mt-2">
@@ -23,4 +24,5 @@ function homeScreen(){
    `);
 }
 
+// eslint-disable-next-line no-undef
 $(homeScreen);

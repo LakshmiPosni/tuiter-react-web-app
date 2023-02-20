@@ -3,6 +3,7 @@ import WhoToFollowList from "./WhoToFollowList/index.js";
 import ExploreComponent from "./ExploreComponent.js";
 
 function exploreComponent() {
+    // eslint-disable-next-line no-undef
     $('#wd-explore').append(`
 <!--              <h2>Explore</h2>-->
   <div class="row mt-2">
@@ -23,6 +24,7 @@ function exploreComponent() {
    `);
 }
 
+// eslint-disable-next-line no-undef
 $(exploreComponent);
 
 
