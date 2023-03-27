@@ -1,6 +1,7 @@
 import React from "react";
 import {faComment} from "@fortawesome/free-regular-svg-icons";
-import {faHeart, faUpload} from "@fortawesome/free-solid-svg-icons"
+import {faHeart} from "@fortawesome/free-regular-svg-icons";
+import {faUpload} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faRetweet} from "@fortawesome/free-solid-svg-icons";
 
@@ -19,15 +20,15 @@ const TuitStats = ({ tuit }) => {
             </div>
             <div className="col">
                 {
-                    tuit.liked && <FontAwesomeIcon icon={faHeart} className="text-danger me-2"/>
+                    tuit.liked && <i className="bi bi-heart-fill text-danger me-2"></i>
                 }
                 {
-                    !tuit.liked && <FontAwesomeIcon icon={faHeart} className="text-danger me-2"/>
+                    !tuit.liked && <FontAwesomeIcon icon={faHeart} className="bi bi-heart me-2"/>
                 }
                 {tuit.likes}
             </div>
             <div className="col">
-                <FontAwesomeIcon icon={faUpload} className="me-2"/>
+                <i className="bi bi-share me-2" ></i>
             </div>
         </div>
     );

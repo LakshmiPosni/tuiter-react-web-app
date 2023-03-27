@@ -25,7 +25,7 @@ export default [
     {
         topic: 'Web Development',
         userName: 'NodeJS',
-        title: '',
+        title: 'Hello',
         time: 'last month',
         image: '../../images/nodejs.jpg',
         tweets: '120K',
